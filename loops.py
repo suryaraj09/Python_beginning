@@ -1,3 +1,6 @@
+a = 29
+print(a)
+
 name  = ["Dave", "Sara", "John"]
 # for x in name:
 #     print(x)
