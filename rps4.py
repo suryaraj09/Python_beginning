@@ -35,19 +35,26 @@ def play_rps():
     print(f"Python chose {str(RPS(computer)).replace('RPS.', '')}.")
     print("")
 
-    if player == 1 and computer == 3:
-        print("You win!!!")
-    elif player == 2 and computer == 1:
-        print("You win!!!")
-    elif player == 3 and computer == 2:
-        print("You win!!!")
-    elif player == computer:
-        print("Tie Game")
-    else:
-        print("Python Win")
+    def decide_winner(player, computer):
+        if player == 1 and computer == 3:
+            return "You win!!!"
+        elif player == 2 and computer == 1:
+            return "You win!!!"
+        elif player == 3 and computer == 2:
+            return "You win!!!"
+        elif player == computer:
+            return "Tie Game"
+        else:
+            return "Python Win"
+
+    game_result = decide_winner(player, computer)
+
+    print(game_result)
 
     global game_count
     game_count += 1
+
+    
     print("\n GameCount"  + str(game_count))
 
 
