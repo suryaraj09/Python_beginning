@@ -2,13 +2,13 @@ a = 29
 print(a)
 
 name  = ["Dave", "Sara", "John"]
-# for x in name:
-#     print(x)
+for x in name:
+    print(x)
 
-# for x in name:
-#     if x == "Sara":
-#         continue
-#     print(x)
+for x in name:
+    if x == "Sara":
+        continue
+    print(x)
 
 # for x in range(4):
 #     print(x)
@@ -29,3 +29,9 @@ for name in names:
 print('')
 print('')
 
+names = ["sara", "mike", "dave"]
+actions = ["play", "eat", "read"]
+
+for action in actions:
+    for name in names:
+        print(name + " " +  'likes to' + " " + action)
