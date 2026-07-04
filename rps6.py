@@ -70,10 +70,10 @@ def rps():
         game_count += 1
 
         
-        print("\n GameCount"  + " --> " + str(game_count))
-        print("\n Playerwins"  + " --> " +str(player_wins))
-        print("\n Pythonwins"  + " --> " + str(python_wins))
-        print("\n Ties"  + " --> " + str(Tie))
+        print(f"\n GameCount  --> {str(game_count)}")
+        print(f"\n Playerwins  --> {str(player_wins)}")
+        print(f"\n Pythonwins  --> {str(python_wins)}")
+        print(f"\n Ties  --> {str(Tie)}")
 
 
 
