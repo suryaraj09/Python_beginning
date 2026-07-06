@@ -22,7 +22,7 @@ print(addten(20))
 
 #####################################################
 
-lambda num : num * num
+# lambda num : num * num
 
 numbers = [1,2,3,4,5,6,7,8,9,10]
 
@@ -32,7 +32,7 @@ print(list(squared))
 
 ####################################################
 
-lambda num : num % 2 != 0
+# lambda num : num % 2 != 0
 
 odd = filter(lambda num : num % 2 != 0, numbers)
 
@@ -48,6 +48,6 @@ lambda acc, curr : acc + curr
 
 numbers = [1, 2, 3, 4, 5, 1]
 
-total = reduce(lambda acc, curr : acc + curr, numbers)
+total = reduce(lambda acc, curr : acc + curr, numbers, 10)
 
 print(total)
