@@ -4,15 +4,16 @@
 def parent_function(Person, coins):
     #coins = 3
     def play_games():
+        nonlocal Person
         nonlocal coins
         coins -= 1
 
         if coins > 1:
-            print("\n" + Person + " "+"has" +" " +str(coins) + " coins left.")
+            print(f"\n {Person} has {str(coins)} coins left.")
         elif coins == 1:
-            print("\n" + Person + " "+"has" +" " +str(coins) + " coin left.")
+            print(f"\n {Person} has {str(coins)} coin left.")
         else:
-            print("\n" + Person + " "+"has no"+" "+"coins left.")
+            print(f"\n {Person} has no coins left.")
     
     return play_games
 

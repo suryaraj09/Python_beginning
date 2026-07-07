@@ -1,6 +1,6 @@
 line01 = "***************"
 line02 = "*             *"
-line03 = "*    Welcome! *"
+line03 = "*   Welcome!  *"
 line04 = "*             *"
 line05 = "***************"
 
