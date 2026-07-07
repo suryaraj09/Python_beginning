@@ -26,7 +26,7 @@ def play_arcade(name):
     if playagain.lower() == "y":
         return play_arcade(name)
     else:
-        print(f"\nThank you {name}for playing!")
+        print(f"\nThank you {name} for playing!")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
