@@ -58,4 +58,3 @@ class SavingsAcct(InterestRewardAcct):
         except BalanceException as error:
             print(f"\n Withdrawl Interrupted: {error}")
     
-    
