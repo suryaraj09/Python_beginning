@@ -14,20 +14,14 @@ def ceaser_cipher():
         message = input("please write the message to perform operations:\n")
         shift_amount = int(input("Type the shift number:\n"))
         
-        # We need a reference alphabet to find letter positions
         alphabet = "abcdefghijklmnopqrstuvwxyz"
 
         if commute_to_perform == "encode":
             cipher_text = ""
             for char in message:
-                # Keep spaces/symbols/numbers as they are
                 if char.lower() in alphabet:
-                    # Find the letter's index in the alphabet
                     position = alphabet.index(char.lower())
-                    # Shift the index, wrapping around using % 26
                     new_position = (position + shift_amount) % 26
-                    
-                    # Keep the original casing (uppercase/lowercase)
                     new_char = alphabet[new_position]
                     cipher_text += new_char.upper() if char.isupper() else new_char
                 else:
@@ -39,9 +33,7 @@ def ceaser_cipher():
             for char in message:
                 if char.lower() in alphabet:
                     position = alphabet.index(char.lower())
-                    # Shift backward for decoding
                     new_position = (position - shift_amount) % 26
-                    
                     new_char = alphabet[new_position]
                     plain_text += new_char.upper() if char.isupper() else new_char
                 else:
@@ -61,6 +53,4 @@ def ceaser_cipher():
             print("Invalid input, please try again.")
             continue
 
-ceaser_cipher()
-
-
+ceaser_cipher() 
