@@ -51,9 +51,10 @@ def ceaser_cipher():
     operation()
 
     while True:
-        if input("Type 'yes' if you want to go again. Otherwise type 'no':").lower().strip() == 'yes':
+        choice = input("do you want to use the caesar cypher again: write 'yes' for yes and 'no' for no:\n" ).lower().strip()
+        if choice == 'yes':
             ceaser_cipher()
-        elif input("Type 'yes' if you want to go again. Otherwise type 'no':").lower().strip() == 'no':
+        elif choice == 'no':
             print("Goodbye!")
             break
         else:
@@ -61,4 +62,5 @@ def ceaser_cipher():
             continue
 
 ceaser_cipher()
+
 
