@@ -1,3 +1,4 @@
+
 def ceaser_cipher():
     print("let's begin")
 
@@ -53,4 +54,6 @@ def ceaser_cipher():
             print("Invalid input, please try again.")
             continue
 
-ceaser_cipher() 
+
+if __name__ == "__main__":
+    ceaser_cipher() 
