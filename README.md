@@ -121,6 +121,6 @@ if you are learning and trying to brush up on the old rust of Python, watch the 
 If you're a beginner learning Python, feel free to explore the code, use the cheat sheet, and experiment with your own improvements.
 
 ## Contact
-For queries, reach out to me at @suryarajjadeja.tech and drop your message. I will get back to you with discussions on Python Programming.🪢
+For queries, reach out to me at [suryarajjadeja.tech](https://suryarajjadeja.tech) and drop your message. I will get back to you with discussions on Python Programming.🪢
 
 Happy Coding! 🐍
