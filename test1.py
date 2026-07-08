@@ -43,7 +43,7 @@ def ceaser_cipher():
     operation()
 
     while True:
-        choice = input("do you want to use the caesar cypher again: write 'yes' for yes and 'no' for no:\n" ).lower().strip()
+        choice = input("do you want to use the caesar cypher again: write 'yes' for yes and 'no' for no:\n" ).lower()
         if choice == 'yes':
             ceaser_cipher()
         elif choice == 'no':
