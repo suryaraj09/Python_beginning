@@ -10,12 +10,12 @@ charlie = StudentMember("Charlie")
 print("\n--- Alice's Borrowing ---")
 alice.borrow_book("The Hobbit")
 alice.borrow_book("1984")
-alice.borrow_book("To Kill a Mockingbird")  # Should fail (Limit of 2 reached)
+alice.borrow_book("To Kill a Mockingbird") 
 alice.show_books()
 
 # 3. Test transferring books
 print("\n--- Transferring Book ---")
-alice.transfer_book("1984", bob)            # Should succeed
+alice.transfer_book("1984", bob)            
 alice.show_books()
 bob.show_books()
 
