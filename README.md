@@ -1,10 +1,10 @@
 # Python Learning Journey 🚀
 
-This repository documents my journey of learning Python through Dave Gray's Python course and hands-on practice. It contains course assignments, exercises, personal experiments, code modifications, and a Python cheat sheet that I created along the way.
+This repository documents my journey of learning Python through Dave Grey's Python course and hands-on practice. It contains course assignments, exercises, personal experiments, code modifications, and a Python cheat sheet that I created along the way.
 
 ## Acknowledgment
 
-A huge thank you to **Dave Gray** for creating an excellent Python course that made learning programming both engaging and practical. His clear explanations, structured approach, and emphasis on writing code rather than just watching tutorials helped me build a solid foundation in Python.
+A huge thank you to **Dave Grey ** for creating an excellent Python course that made learning programming both engaging and practical. His clear explanations, structured approach, and emphasis on writing code rather than just watching tutorials helped me build a solid foundation in Python.
 
 This repository is inspired by the concepts and assignments taught throughout his course, combined with my own experimentation and modifications to reinforce learning.
 
@@ -12,7 +12,7 @@ This repository is inspired by the concepts and assignments taught throughout hi
 
 This repository includes:
 
-* Course assignments and exercises based on Dave Gray's Python course
+* Course assignments and exercises based on Dave Grey's Python course
 * Personal code experiments and enhancements
 * Additional implementations created while exploring Python concepts
 * Practice programs used to strengthen understanding
@@ -112,8 +112,8 @@ The purpose of this repository is to:
 
 ## Note
 
-This repository is intended as a learning archive and practice space. Some solutions may have multiple possible implementations, and several files contain personal modifications made while experimenting with concepts and there are many tweaks and even challenging
-questions that I challenged myself to get a clear grasp of slicing, Control flow statements, and OOP-related programs that are out of scope of that playlist of Dave Gray's but overall 
+This repository is intended as a learning archive and practice space. Some solutions may have multiple possible implementations, and several files contain personal modifications made while experimenting with concepts, and there are many tweaks and even challenging ones
+questions that I challenged myself to get a clear grasp of slicing, Control flow statements, and OOP-related programs that are out of scope of that playlist of Dave Grey's, but overall 
 if you are learning and trying to brush up on the old rust of Python, watch the series and do your own thing with it.
 
 ## Connect
