@@ -13,4 +13,5 @@ response = client.chat.completions.create(
     messages=[{"role": "user", "content": "Hello!"}]
 )
 
-print(response.choices[0].message.content)``
+print(response.choices[0].message.content)
+
