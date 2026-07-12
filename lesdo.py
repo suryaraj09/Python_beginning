@@ -1,32 +1,27 @@
-
 import sys
-def fizz():
 
+def fizz():
     num = int(input("Please enter the number to check the fizz, Buzz or fizz Buzz =>\n"))
 
-    if num % 3 == 0:
+    
+    if num % 3 == 0 and num % 5 == 0:
+        print("FizzBuzz")
+    elif num % 3 == 0:
         print("Fizz")
-
     elif num % 5 == 0:
         print("Buzz")
-
-    elif num % 3 == 0 and num % 5==0:
-        print("FizzBuzz")
-
     else:
         print(num)
 
-        while True:
+    while True:
+        playagain = input("\nDo you want to play again? Write 'yes' to play and 'no' to exit: ").strip().lower()
 
-            playagain = input(f"\n do you wanna play again write yes to play and no to not play")
-
-        if playagain.lower() == "yes":
-                return fizz()
-
-        elif playagain.lower() == "no":
-            print("\n thank you for playing")
+        if playagain == "yes":
+            return fizz() 
+        elif playagain == "no":
+            print("\nThank you for playing!")
+            sys.exit()     
         else:
-            print("please choose for yes or no")
-            sys.exit
+            print("Please choose 'yes' or 'no'")
 
-    fizz()
+fizz()
