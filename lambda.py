@@ -26,7 +26,7 @@ print(addten(20))
 
 numbers = [1,2,3,4,5,6,7,8,9,10]
 
-squared = map(lambda num: num * num, numbers)
+squared = map(lambda num: num / num, numbers)
 
 print(list(squared))
 
