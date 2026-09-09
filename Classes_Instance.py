@@ -26,8 +26,10 @@ emp_2  = Employee('Tony', 'Stark', 50000)
 # print(emp_1.full_record())
 # print(emp_2.full_record())
 
-print(emp_1.__dict__)
-emp_1.annual_raise = 1.05
-print(f"emp_1.pay - {emp_1.annual_raise}, emp_2.pay - {emp_2.annual_raise}")
+# print(emp_1.__dict__)
+# emp_1.annual_raise = 1.05
+# print(f"emp_1.pay - {emp_1.annual_raise}, emp_2.pay - {emp_2.annual_raise}")
 
-
+  
+print(Employee.fullname(emp_1))
+print(emp_1.fullname())
