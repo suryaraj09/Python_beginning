@@ -14,6 +14,8 @@ def rps(name = 'PlayerOne'):
 
 
     def play_rps():
+        #nonlocal is used inside a python function that is nested another python function
+        # it will use the value of the variable from the outer function
         nonlocal name
         nonlocal player_wins
         nonlocal python_wins
