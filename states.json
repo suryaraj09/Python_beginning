@@ -1,0 +1,184 @@
+{
+  "states": [
+    {
+      "name": "Andhra Pradesh",
+      "abbreviation": "AP",
+      "area_codes": ["0866", "0891", "0863"]
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "abbreviation": "AR",
+      "area_codes": ["0360", "0368"]
+    },
+    {
+      "name": "Assam",
+      "abbreviation": "AS",
+      "area_codes": ["0361", "0373", "0362"]
+    },
+    {
+      "name": "Bihar",
+      "abbreviation": "BR",
+      "area_codes": ["0612", "0631", "0621"]
+    },
+    {
+      "name": "Chhattisgarh",
+      "abbreviation": "CG",
+      "area_codes": ["0771", "0788", "07752"]
+    },
+    {
+      "name": "Goa",
+      "abbreviation": "GA",
+      "area_codes": ["0832"]
+    },
+    {
+      "name": "Gujarat",
+      "abbreviation": "GJ",
+      "area_codes": ["079", "0261", "0265"]
+    },
+    {
+      "name": "Haryana",
+      "abbreviation": "HR",
+      "area_codes": ["0124", "0129", "0172"]
+    },
+    {
+      "name": "Himachal Pradesh",
+      "abbreviation": "HP",
+      "area_codes": ["0177", "01902"]
+    },
+    {
+      "name": "Jharkhand",
+      "abbreviation": "JH",
+      "area_codes": ["0651", "0657", "06540"]
+    },
+    {
+      "name": "Karnataka",
+      "abbreviation": "KA",
+      "area_codes": ["080", "0821", "0824"]
+    },
+    {
+      "name": "Kerala",
+      "abbreviation": "KL",
+      "area_codes": ["0471", "0484", "0495"]
+    },
+    {
+      "name": "Madhya Pradesh",
+      "abbreviation": "MP",
+      "area_codes": ["0755", "0731", "0761"]
+    },
+    {
+      "name": "Maharashtra",
+      "abbreviation": "MH",
+      "area_codes": ["022", "020", "0712"]
+    },
+    {
+      "name": "Manipur",
+      "abbreviation": "MN",
+      "area_codes": ["0385"]
+    },
+    {
+      "name": "Meghalaya",
+      "abbreviation": "ML",
+      "area_codes": ["0364"]
+    },
+    {
+      "name": "Mizoram",
+      "abbreviation": "MZ",
+      "area_codes": ["0389"]
+    },
+    {
+      "name": "Nagaland",
+      "abbreviation": "NL",
+      "area_codes": ["0370", "03862"]
+    },
+    {
+      "name": "Odisha",
+      "abbreviation": "OD",
+      "area_codes": ["0674", "0661", "06752"]
+    },
+    {
+      "name": "Punjab",
+      "abbreviation": "PB",
+      "area_codes": ["0161", "0175", "0181"]
+    },
+    {
+      "name": "Rajasthan",
+      "abbreviation": "RJ",
+      "area_codes": ["0141", "0294", "0291"]
+    },
+    {
+      "name": "Sikkim",
+      "abbreviation": "SK",
+      "area_codes": ["03592"]
+    },
+    {
+      "name": "Tamil Nadu",
+      "abbreviation": "TN",
+      "area_codes": ["044", "0422", "0452"]
+    },
+    {
+      "name": "Telangana",
+      "abbreviation": "TS",
+      "area_codes": ["040", "0870"]
+    },
+    {
+      "name": "Tripura",
+      "abbreviation": "TR",
+      "area_codes": ["0381"]
+    },
+    {
+      "name": "Uttar Pradesh",
+      "abbreviation": "UP",
+      "area_codes": ["0522", "0512", "0562", "0120"]
+    },
+    {
+      "name": "Uttarakhand",
+      "abbreviation": "UK",
+      "area_codes": ["0135", "05942"]
+    },
+    {
+      "name": "West Bengal",
+      "abbreviation": "WB",
+      "area_codes": ["033", "0353", "0341"]
+    },
+    {
+      "name": "Andaman and Nicobar Islands",
+      "abbreviation": "AN",
+      "area_codes": ["03192"]
+    },
+    {
+      "name": "Chandigarh",
+      "abbreviation": "CH",
+      "area_codes": ["0172"]
+    },
+    {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "abbreviation": "DN",
+      "area_codes": ["0260", "02638"]
+    },
+    {
+      "name": "Delhi",
+      "abbreviation": "DL",
+      "area_codes": ["011"]
+    },
+    {
+      "name": "Jammu and Kashmir",
+      "abbreviation": "JK",
+      "area_codes": ["0194", "0191"]
+    },
+    {
+      "name": "Ladakh",
+      "abbreviation": "LA",
+      "area_codes": ["01982"]
+    },
+    {
+      "name": "Lakshadweep",
+      "abbreviation": "LD",
+      "area_codes": ["04896"]
+    },
+    {
+      "name": "Puducherry",
+      "abbreviation": "PY",
+      "area_codes": ["0413"]
+    }
+  ]
+}
