@@ -39,4 +39,3 @@ for states in data['states']:
 
 with open('new_states.json', 'w') as f:
     json.dump(data, f, indent = 2)
-    
