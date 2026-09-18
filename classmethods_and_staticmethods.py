@@ -13,7 +13,8 @@ class user:
     def workday(day):
         if day.weekday() == 5 or day.weekday() == 6:
             print("It's a weekend")
-        print("it's a workday")
+        else:
+            print("it's a workday")
         
 
 user_string = "Suryaraj-23"

@@ -45,3 +45,19 @@ def say_hello():
     print("Hello World")
 
 say_hello()
+
+# def log_details(func):
+#     def wrapper(*args, **kwargs):
+#         print("Function started")
+#         result = func(*args, **kwargs)  # 1. Execute func first & save result
+#         print("Function Ended")
+#         return result                   # 2. Return the result
+#     return wrapper
+
+
+# @log_details
+# def func(a, b):
+#     return a + b
+
+# s = func(1, 2)
+# print(f"result:{s}")
