@@ -1,0 +1,1 @@
+# I do not know what was this about but we will come back to it later in sometime and enjoy learning python always and forward to the ways that is so good that we never give up on the task at hand

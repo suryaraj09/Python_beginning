@@ -3,13 +3,15 @@ from unittest.mock import patch
 from employeee import Employee
 
 class TestEmployee(unittest.TestCase):
-    def setUp(self):
-        print('setUp: Initializing test Employee instance')
-        self.emp_1 = Employee('Suryaraj', 'Jadeja', 50000)
+    @classmethod
+    def setUpClass(cls):
+        print('setUpClass: Initializing test Employee instance')
+        cls.emp_1 = Employee('Suryaraj', 'Jadeja', 50000)
 
-    def tearDown(self):
-        print('tearDown: Cleaning up test Employee instance')
-        del self.emp_1
+    @classmethod
+    def tearDownClass(cls):
+        print('tearDownClass: Cleaning up test Employee instance')
+        del cls.emp_1
 
     def test_email(self):
         self.assertEqual(self.emp_1.email, 'Suryaraj.Jadeja@email.com')
