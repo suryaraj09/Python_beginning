@@ -1,3 +1,4 @@
+import requests
 class Employee:
 
     raise_amount = 1.04
@@ -26,5 +27,8 @@ class Employee:
         else:
             return "Bad Response"
 
+# why is my camera lagging so much and why I cannot do anything about it 
+
 emp_1 = Employee('Suryaraj', 'Jadeja', 50000)
 print(emp_1.email)  
+# what 
