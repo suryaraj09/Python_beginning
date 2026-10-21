@@ -31,4 +31,4 @@ class Employee:
 
 emp_1 = Employee('Suryaraj', 'Jadeja', 50000)
 print(emp_1.email)  
-# what 
+# Life becomes more broader once you realised that everything that you see around yourself is made by people who were no smarter than you. 
